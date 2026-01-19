@@ -14,7 +14,7 @@
 - Wait until the Codespace finishes provisioning (this is the "take a 5‑minute break" step).
 - In the Codespace, click the orange Claude Code icon at the top right to open Claude Code. Choose **claude.ai Subscription** and follow the instructions to log in.
 - In the VS Code Claude prompt, type `/mcp` and select **Manage MCP servers**. Authorize the Myop MCP. During this process you may need to log in to both Claude and Myop, hit *Enter* a few times, and approve the connection prompts. The defaults are usually correct – just keep confirming.
-- For a more convenient workflow, go to <https://github.com/codespaces>, find your Codespace, click the three‑dot menu, and choose **Open in Visual Studio Code**. Make sure VS Code is installed.
+- For a more convenient workflow, go to <https://github.com/codespaces>, find your Codespace, click the three‑dot menu, and choose **Open in Visual Studio Code**. Make sure VS Code is installed. Tip: you can go to [codespaces settings](https://github.com/settings/codespaces) and change *Editor preference* from **Visual Studio Code for the Web** to **Visual Studio Code**
 
 ## Troubleshooting
 - If something doesn't work or you manage to break space‑time, contact [me](mailto:evgeniy.m@pic-time.com).
