@@ -1,24 +1,17 @@
+# Myop environment setup
+
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/hackteck/myop-setup/tree/master)
 
-# The Pic-Time builders’ Myop env setup
+*This is not thoroughly battle‑tested yet, but it should work. If it doesn’t – congratulations, you found a new edge case.*
 
-# Prerequisites
 
-Get a Claude Code account from Yasmin
+## Setup
+- Create an account at [myop.dev](https://myop.dev) if you don't have one yet. If you need to be added to the organization, kindly ask [hadar@myop.dev](mailto:hadar@myop.dev).
+- Click the curly black "Open in GitHub Codespaces" button above to let GitHub set up the required environment.
+- Wait until the Codespace finishes provisioning (this is the "take a 5 min break" step).
+- In the Codespace, click the orange Claude Code icon at the top right to open Claude Code. Choose **claude.ai Subscription** and follow the instructions to log in.
+- In the VS Code Claude prompt, type `/mcp` and select **Manage MCP servers**. Authorize the Myop MCP. During this process you may need to log in to both Claude and Myop, hit *Enter* a few times, and approve the connection prompts. The defaults are usually correct – just keep confirming.
+- For a more convenient workflow, go to <https://github.com/codespaces>, find your Codespace, click the three‑dot menu, and choose **Open in Visual Studio Code**. Make sure VS Code is installed.
 
-# Setup
-
-| Action | Details |
-| :---- | :---- |
-| Open account in Myop | [https://myop.dev](https://myop.dev) open an account and send to [hadar@myop.dev](mailto:hadar@myop.dev) a request to add you to the Pic-Time organization. It must be on your Pic-Time’s email |
-| VSCode install | [https://code.visualstudio.com/download](https://code.visualstudio.com/download) Click next in the welcome wizard.  |
-| node.js | Open a new PowerShell or Command Prompt as Administrator and run: winget install OpenJS.NodeJS.LTS On windows: click Start \> type PowerShell \> Right click Windows PowerShell \> Select run as administrator |
-| Enable scripts execution | In PowerShell, change the execution policy to allow scripts to run:  Set-ExecutionPolicy \-ExecutionPolicy RemoteSigned \-Scope CurrentUser |
-| Claude Code for VS Code (extension) | [https://code.claude.com/docs/en/vs-code](https://code.claude.com/docs/en/vs-code) Look for ‘install VSCode’ Connect it to Claude account provided by Yasmin: Open the Claude Code extension and click the Claude Code orange icon at the top right to open Claude Code. Choose '[claude.ai](http://claude.ai) Subscription'. In the popup, select Open. Use the Claude Code account from Yasmin. |
-| Enable Git | Download git from [https://git-scm.com/downloads/win](https://git-scm.com/downloads/win) and install it |
-| Enabling Claude to run in terminal | Open the VSCode and open the Claude prompt. Write “I cannot run claude from terminal, fix it” Follow the process and approve the requests by the agent: choose “Yes, don’t ask again” throughout the process |
-| Install Myop MCP | Open the terminal window in VSCode (in the top bar menu) `claude mcp add myop https://mcp.myop.dev/mcp --transport http --scope user` Follow the process and the requests Ref: [https://docs.myop.dev/docs/mcp-setup/](https://docs.myop.dev/docs/mcp-setup/)  |
-| Authorize Myop MCP | In the VSCode Claude prompt,  `/mcp` and select the Manage MCP servers Continue to authorize the Myop MCP. It will require you multiple Enters and approve the Claude and Myop connections Follow the defaults |
-| Install Myop CLI | Open the terminal window (topbar terminal) and type `npm install -g @myop/cli` |
-| Install Myop Extension | Follow the instructions on [https://docs.myop.dev/docs/dev-extension/](https://docs.myop.dev/docs/dev-extension/) To install the chrome extension |
-| 🙂 | We should be good |
+## Troubleshooting
+- If something doesn't work or you manage to break space‑time, contact [me](mailto:evgeniy.m@pic-time.com).
