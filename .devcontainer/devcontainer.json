@@ -1,0 +1,15 @@
+{
+    "name": "MYOP Development Container",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "anthropic.claude-code"
+            ]
+        }
+    },
+    "postCreateCommand": "claude mcp add myop https://mcp.myop.dev/mcp --transport http --scope user"
+}
