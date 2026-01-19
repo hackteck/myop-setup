@@ -4,11 +4,14 @@
 
 *This is not thoroughly battle‑tested yet, but it should work. If it doesn’t – congratulations, you found a new edge case.*
 
+## Prerequisites
+- Sign in to your GitHub account or [create one](https://github.com) if you don't already have one.
+- Create an account at [myop.dev](https://myop.dev) if you don't have one yet. If you need to be added to the organization, kindly ask [hadar@myop.dev](mailto:hadar@myop.dev).
+- Install [Myop Dev Extension](https://docs.myop.dev/docs/dev-extension/)
 
 ## Setup
-- Create an account at [myop.dev](https://myop.dev) if you don't have one yet. If you need to be added to the organization, kindly ask [hadar@myop.dev](mailto:hadar@myop.dev).
 - Click the curly black "Open in GitHub Codespaces" button above to let GitHub set up the required environment.
-- Wait until the Codespace finishes provisioning (this is the "take a 5 min break" step).
+- Wait until the Codespace finishes provisioning (this is the "take a 5‑minute break" step).
 - In the Codespace, click the orange Claude Code icon at the top right to open Claude Code. Choose **claude.ai Subscription** and follow the instructions to log in.
 - In the VS Code Claude prompt, type `/mcp` and select **Manage MCP servers**. Authorize the Myop MCP. During this process you may need to log in to both Claude and Myop, hit *Enter* a few times, and approve the connection prompts. The defaults are usually correct – just keep confirming.
 - For a more convenient workflow, go to <https://github.com/codespaces>, find your Codespace, click the three‑dot menu, and choose **Open in Visual Studio Code**. Make sure VS Code is installed.
