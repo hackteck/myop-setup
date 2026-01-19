@@ -8,6 +8,7 @@
 - Sign in to your GitHub account or [create one](https://github.com) if you don't already have one.
 - Create an account at [myop.dev](https://myop.dev) if you don't have one yet. If you need to be added to the organization, kindly ask [hadar@myop.dev](mailto:hadar@myop.dev).
 - Install [Myop Dev Extension](https://docs.myop.dev/docs/dev-extension/)
+- Optional: [Visual Studio Code](https://code.visualstudio.com/download) for better expirience
 
 ## Setup
 - Click the curly black "Open in GitHub Codespaces" button above to let GitHub set up the required environment.
