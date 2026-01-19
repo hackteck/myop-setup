@@ -11,5 +11,8 @@
             ]
         }
     },
-    "postCreateCommand": "claude mcp add myop https://mcp.myop.dev/mcp --transport http --scope user"
+    "postCreateCommand": {
+        "addMyopMCP": "claude mcp add myop https://mcp.myop.dev/mcp --transport http --scope user",
+        "installMyopCLI": "sudo npm install -g @myop/cli"
+    }
 }
